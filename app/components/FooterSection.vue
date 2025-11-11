@@ -41,41 +41,41 @@
 
         <!-- Services -->
         <div>
-          <h4 class="text-lg font-semibold mb-4">Services</h4>
+          <h4 class="text-lg font-semibold mb-4">Layanan</h4>
           <ul class="space-y-2 text-gray-400">
             <li>
               <a href="#" class="hover:text-blue-400 transition-colors"
-                >CCTV Systems</a
+                >Sistem CCTV</a
               >
             </li>
             <li>
               <a href="#" class="hover:text-blue-400 transition-colors"
-                >Access Control</a
+                >Kontrol Akses</a
               >
             </li>
             <li>
               <a href="#" class="hover:text-blue-400 transition-colors"
-                >Parking Systems</a
+                >Sistem Parkir</a
               >
             </li>
             <li>
               <a href="#" class="hover:text-blue-400 transition-colors"
-                >Office Peripherals</a
+                >Peralatan Kantor</a
               >
             </li>
             <li>
               <a href="#" class="hover:text-blue-400 transition-colors"
-                >Software Integration</a
+                >Integrasi Software</a
               >
             </li>
             <li>
               <a href="#" class="hover:text-blue-400 transition-colors"
-                >Custom Applications</a
+                >Aplikasi Khusus</a
               >
             </li>
             <li>
               <a href="#" class="hover:text-blue-400 transition-colors"
-                >Networking Solutions</a
+                >Solusi Jaringan</a
               >
             </li>
           </ul>
@@ -83,26 +83,31 @@
 
         <!-- Company -->
         <div>
-          <h4 class="text-lg font-semibold mb-4">Company</h4>
+          <h4 class="text-lg font-semibold mb-4">Perusahaan</h4>
           <ul class="space-y-2 text-gray-400">
             <li>
               <a href="#profile" class="hover:text-blue-400 transition-colors"
-                >About Us</a
+                >Tentang Kami</a
+              >
+            </li>
+            <li>
+              <a href="#clients" class="hover:text-blue-400 transition-colors"
+                >Klien</a
               >
             </li>
             <li>
               <a href="#portfolio" class="hover:text-blue-400 transition-colors"
-                >Portfolio</a
+                >Portofolio</a
               >
             </li>
             <li>
               <a href="#gallery" class="hover:text-blue-400 transition-colors"
-                >Gallery</a
+                >Galeri</a
               >
             </li>
             <li>
               <a href="#contact" class="hover:text-blue-400 transition-colors"
-                >Contact</a
+                >Kontak</a
               >
             </li>
             <li>

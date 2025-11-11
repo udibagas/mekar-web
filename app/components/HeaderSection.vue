@@ -46,6 +46,14 @@
           <UButton
             variant="ghost"
             color="neutral"
+            @click="scrollTo('clients')"
+            class="text-gray-600 hover:text-blue-600"
+          >
+            Klien
+          </UButton>
+          <UButton
+            variant="ghost"
+            color="neutral"
             @click="scrollTo('portfolio')"
             class="text-gray-600 hover:text-blue-600"
           >
@@ -126,6 +134,15 @@
             class="text-left justify-start"
           >
             Layanan
+          </UButton>
+          <UButton
+            variant="ghost"
+            color="neutral"
+            @click="mobileScrollTo('clients')"
+            block
+            class="text-left justify-start"
+          >
+            Klien
           </UButton>
           <UButton
             variant="ghost"

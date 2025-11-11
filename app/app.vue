@@ -17,6 +17,9 @@
     <!-- Services Section -->
     <ServicesSection />
 
+    <!-- Clients Section -->
+    <ClientsSection />
+
     <!-- Portfolio Section -->
     <PortfolioSection />
 
