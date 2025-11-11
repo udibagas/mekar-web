@@ -4,49 +4,90 @@
       <div class="lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center">
         <div>
           <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl mb-6">
-            About Mekar Technology
+            Tentang Mekar Technology
           </h2>
           <div class="prose prose-lg text-gray-600">
             <p class="mb-4">
-              Mekar Technology is a premier technology solutions provider established in 2015, 
-              specializing in comprehensive security systems, office automation, and custom software development. 
-              With over 8 years of experience in the industry, we have built a reputation for delivering 
-              cutting-edge technology solutions that enhance business operations and security infrastructure.
+              CV. MEKAR KREASINDO perusahaan yang bergerak dibidang produk dan
+              jasa Security System dan Jaringan , melihat perkembangan zaman
+              tidak dapat dipungkiri lagi berkembangnya teknologi berpengaruh
+              pada berkurangnya tenaga fisik manusia dalam melakukan sesuatu
+              pekerjaan. Peran tersebut digantikan dengan perangkat alat
+              elektronik yang dapat mewakili pekerjaan-pekerjaan tertentu, maka
+              dari itu CV . MEKAR KREASINDO ingin membantu menyediakan segala
+              kebutuhan masyarakat dalam bidang keamanan maupun jaringan.
+              Pelayanan jasa Security System dan Jaringan terbaik hanya dapat
+              dicapai melalui komitmen, dukungan dengan seluruh mitra
+              perusahaan, dan penerapan manajemen teknologi yang efektif dan
+              efisien.
             </p>
-            <h3 class="text-xl font-semibold text-gray-900 mb-3">Our Mission</h3>
+
             <p class="mb-4">
-              To empower businesses with innovative technology solutions that drive efficiency, security, 
-              and growth while maintaining the highest standards of quality and customer service.
+              CV . MEKAR KREASINDO berdiri sejak tahun 2013, telah lebih dari
+              satu dekade berkarya dan berperan aktif dalam pembangunan di tanah
+              air merupakan pencapaian yang tidak mudah. Banyak pengalaman dan
+              proses pembelajaran yang telah dilewati dari tahun ke tahun yang
+              membawa perusahaan terus tumbuh dan berkembang sesuai dengan
+              rencana strategis perusahaan.
             </p>
-            <h3 class="text-xl font-semibold text-gray-900 mb-3">Why Choose Mekar Technology?</h3>
+            <h3 class="text-xl font-semibold text-gray-900 mb-3">Misi Kami</h3>
+            <p class="mb-4">
+              - Terus melakukan improvisasi dan inovasi dalam rangka menjaga
+              kualitas produk dan meningkatkan kualitas pelayanan.
+              <br />
+              - Memberikan pelayanan sepenuh hati dengan menjaga keselamatan
+              kerja.
+            </p>
+            <!-- <h3 class="text-xl font-semibold text-gray-900 mb-3">
+              Mengapa Memilih Mekar Technology?
+            </h3>
             <ul class="list-disc list-inside space-y-2">
-              <li>Experienced Team: Over 50 certified professionals with extensive industry experience</li>
-              <li>Comprehensive Solutions: End-to-end services from consultation to implementation and support</li>
-              <li>Quality Assurance: Rigorous testing and quality control processes</li>
-              <li>24/7 Support: Round-the-clock technical support and maintenance services</li>
-              <li>Competitive Pricing: Cost-effective solutions without compromising on quality</li>
-            </ul>
+              <li>
+                Tim Berpengalaman: Lebih dari 50 profesional bersertifikat
+                dengan pengalaman industri yang luas
+              </li>
+              <li>
+                Solusi Komprehensif: Layanan end-to-end dari konsultasi hingga
+                implementasi dan dukungan
+              </li>
+              <li>
+                Jaminan Kualitas: Proses pengujian dan kontrol kualitas yang
+                ketat
+              </li>
+              <li>
+                Dukungan 24/7: Dukungan teknis dan layanan pemeliharaan
+                sepanjang waktu
+              </li>
+              <li>
+                Harga Kompetitif: Solusi hemat biaya tanpa mengurangi kualitas
+              </li>
+            </ul> -->
           </div>
         </div>
         <div class="mt-10 lg:mt-0">
           <div class="bg-gray-50 p-8 rounded-xl">
-            <h3 class="text-xl font-semibold text-gray-900 mb-4">Quick Facts</h3>
+            <h3 class="text-xl font-semibold text-gray-900 mb-4">
+              Fakta Singkat
+            </h3>
             <div class="space-y-4">
               <div class="flex items-center">
                 <UIcon name="i-heroicons-calendar" class="text-blue-600 mr-3" />
-                <span class="text-gray-600">Established in 2015</span>
+                <span class="text-gray-600">Didirikan pada 2015</span>
               </div>
               <div class="flex items-center">
                 <UIcon name="i-heroicons-users" class="text-blue-600 mr-3" />
-                <span class="text-gray-600">50+ Certified Professionals</span>
+                <span class="text-gray-600">50+ Profesional Bersertifikat</span>
               </div>
               <div class="flex items-center">
-                <UIcon name="i-heroicons-building-office" class="text-blue-600 mr-3" />
-                <span class="text-gray-600">200+ Successful Projects</span>
+                <UIcon
+                  name="i-heroicons-building-office"
+                  class="text-blue-600 mr-3"
+                />
+                <span class="text-gray-600">200+ Proyek Sukses</span>
               </div>
               <div class="flex items-center">
                 <UIcon name="i-heroicons-clock" class="text-blue-600 mr-3" />
-                <span class="text-gray-600">24/7 Support</span>
+                <span class="text-gray-600">Dukungan 24/7</span>
               </div>
             </div>
           </div>

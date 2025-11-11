@@ -7,13 +7,13 @@
         <!-- Hero Content -->
         <div class="text-center lg:text-left">
           <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-            Advanced Technology
-            <span class="text-blue-300">Solutions</span>
-            for Modern Business
+            Solusi Teknologi
+            <span class="text-blue-300">Canggih</span>
+            untuk Bisnis Modern
           </h1>
           <p class="text-xl lg:text-2xl text-blue-100 mb-8 max-w-2xl">
-            Empowering businesses with cutting-edge security systems, office
-            automation, and custom software solutions since 2015.
+            Memberdayakan bisnis dengan sistem keamanan terdepan, otomasi
+            kantor, dan solusi perangkat lunak khusus sejak 2015.
           </p>
 
           <div
@@ -26,7 +26,7 @@
               icon="i-heroicons-rocket-launch"
               class="bg-blue-600 hover:bg-blue-500"
             >
-              Get Started
+              Mulai Sekarang
             </UButton>
             <UButton
               variant="outline"
@@ -35,7 +35,7 @@
               icon="i-heroicons-eye"
               class="border-blue-300 text-blue-100 hover:bg-blue-800"
             >
-              View Portfolio
+              Lihat Portofolio
             </UButton>
           </div>
 
@@ -45,19 +45,19 @@
               <div class="text-3xl lg:text-4xl font-bold text-blue-300 mb-2">
                 200+
               </div>
-              <p class="text-sm text-blue-100">Projects Completed</p>
+              <p class="text-sm text-blue-100">Proyek Selesai</p>
             </div>
             <div class="text-center">
               <div class="text-3xl lg:text-4xl font-bold text-blue-300 mb-2">
                 150+
               </div>
-              <p class="text-sm text-blue-100">Happy Clients</p>
+              <p class="text-sm text-blue-100">Klien Puas</p>
             </div>
             <div class="text-center">
               <div class="text-3xl lg:text-4xl font-bold text-blue-300 mb-2">
                 8+
               </div>
-              <p class="text-sm text-blue-100">Years Experience</p>
+              <p class="text-sm text-blue-100">Tahun Pengalaman</p>
             </div>
           </div>
         </div>
@@ -92,7 +92,7 @@
                     name="i-heroicons-shield-check"
                     class="text-3xl text-green-300 mb-2"
                   />
-                  <span class="text-sm text-blue-100">Security</span>
+                  <span class="text-sm text-blue-100">Keamanan</span>
                 </div>
                 <div
                   class="flex flex-col items-center p-4 bg-white bg-opacity-10 rounded-xl"
@@ -101,7 +101,7 @@
                     name="i-heroicons-globe-alt"
                     class="text-3xl text-purple-300 mb-2"
                   />
-                  <span class="text-sm text-blue-100">Network</span>
+                  <span class="text-sm text-blue-100">Jaringan</span>
                 </div>
                 <div
                   class="flex flex-col items-center p-4 bg-white bg-opacity-10 rounded-xl"
@@ -110,7 +110,7 @@
                     name="i-heroicons-key"
                     class="text-3xl text-yellow-300 mb-2"
                   />
-                  <span class="text-sm text-blue-100">Access</span>
+                  <span class="text-sm text-blue-100">Akses</span>
                 </div>
                 <div
                   class="flex flex-col items-center p-4 bg-white bg-opacity-10 rounded-xl"
@@ -128,7 +128,7 @@
                     name="i-heroicons-cog-6-tooth"
                     class="text-3xl text-orange-300 mb-2"
                   />
-                  <span class="text-sm text-blue-100">Support</span>
+                  <span class="text-sm text-blue-100">Dukungan</span>
                 </div>
               </div>
 
@@ -153,7 +153,7 @@
           icon="i-heroicons-chevron-down"
           class="text-blue-200 hover:text-white animate-bounce"
         >
-          Learn More
+          Pelajari Lebih Lanjut
         </UButton>
       </div>
     </div>

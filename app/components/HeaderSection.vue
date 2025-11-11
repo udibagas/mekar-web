@@ -4,12 +4,16 @@
       <div class="flex justify-between items-center py-4">
         <!-- Logo -->
         <div class="flex items-center">
-          <div class="bg-blue-600 p-2 rounded-lg mr-3">
-            <UIcon name="i-heroicons-cpu-chip" class="text-2xl text-white" />
-          </div>
+          <img
+            src="/images/logo.jpeg"
+            alt="Logo CV. Mekar Kreasindo"
+            class="h-14 mr-3"
+          />
           <div>
-            <h1 class="text-2xl font-bold text-gray-900">Mekar Technology</h1>
-            <p class="text-xs text-gray-600">Technology Solutions Provider</p>
+            <h1 class="text-2xl font-bold text-gray-900">
+              CV. Mekar Kreasindo
+            </h1>
+            <p class="text-xs text-gray-600">Penyedia Solusi Teknologi</p>
           </div>
         </div>
 
@@ -21,7 +25,7 @@
             @click="scrollTo('profile')"
             class="text-gray-600 hover:text-blue-600"
           >
-            About
+            Tentang
           </UButton>
           <UButton
             variant="ghost"
@@ -29,7 +33,7 @@
             @click="scrollTo('products')"
             class="text-gray-600 hover:text-blue-600"
           >
-            Products
+            Produk
           </UButton>
           <UButton
             variant="ghost"
@@ -37,7 +41,7 @@
             @click="scrollTo('services')"
             class="text-gray-600 hover:text-blue-600"
           >
-            Services
+            Layanan
           </UButton>
           <UButton
             variant="ghost"
@@ -45,7 +49,7 @@
             @click="scrollTo('portfolio')"
             class="text-gray-600 hover:text-blue-600"
           >
-            Portfolio
+            Portofolio
           </UButton>
           <UButton
             variant="ghost"
@@ -53,7 +57,7 @@
             @click="scrollTo('gallery')"
             class="text-gray-600 hover:text-blue-600"
           >
-            Gallery
+            Galeri
           </UButton>
           <UButton
             variant="ghost"
@@ -61,7 +65,7 @@
             @click="scrollTo('contact')"
             class="text-gray-600 hover:text-blue-600"
           >
-            Contact
+            Kontak
           </UButton>
         </nav>
 
@@ -72,7 +76,7 @@
             @click="scrollTo('contact')"
             icon="i-heroicons-phone"
           >
-            Get Quote
+            Dapatkan Penawaran
           </UButton>
         </div>
 
@@ -103,7 +107,7 @@
             block
             class="text-left justify-start"
           >
-            About
+            Tentang
           </UButton>
           <UButton
             variant="ghost"
@@ -112,7 +116,7 @@
             block
             class="text-left justify-start"
           >
-            Products
+            Produk
           </UButton>
           <UButton
             variant="ghost"
@@ -121,7 +125,7 @@
             block
             class="text-left justify-start"
           >
-            Services
+            Layanan
           </UButton>
           <UButton
             variant="ghost"
@@ -130,7 +134,7 @@
             block
             class="text-left justify-start"
           >
-            Portfolio
+            Portofolio
           </UButton>
           <UButton
             variant="ghost"
@@ -139,7 +143,7 @@
             block
             class="text-left justify-start"
           >
-            Gallery
+            Galeri
           </UButton>
           <UButton
             variant="ghost"
@@ -148,7 +152,7 @@
             block
             class="text-left justify-start"
           >
-            Contact
+            Kontak
           </UButton>
           <UButton
             color="primary"
@@ -157,7 +161,7 @@
             icon="i-heroicons-phone"
             class="mt-4"
           >
-            Get Quote
+            Dapatkan Penawaran
           </UButton>
         </nav>
       </div>

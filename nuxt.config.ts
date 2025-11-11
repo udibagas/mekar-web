@@ -8,27 +8,27 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: "Mekar Technology - Leading Technology Solutions Provider",
+      title: "Mekar Technology - Penyedia Solusi Teknologi Terdepan",
       meta: [
         {
           name: "description",
           content:
-            "Mekar Technology provides cutting-edge security systems, office automation, and custom software solutions. Specializing in CCTV, access control, parking systems, and more.",
+            "Mekar Technology menyediakan sistem keamanan terdepan, otomasi kantor, dan solusi perangkat lunak khusus. Spesialis CCTV, kontrol akses, sistem parkir, dan lainnya.",
         },
         {
           name: "keywords",
           content:
-            "CCTV, access control, parking system, office peripherals, software integration, custom applications, networking, security systems, Jakarta",
+            "CCTV, kontrol akses, sistem parkir, peralatan kantor, integrasi software, aplikasi khusus, jaringan, sistem keamanan, Jakarta",
         },
         { name: "author", content: "Mekar Technology Solutions" },
         {
           property: "og:title",
-          content: "Mekar Technology - Leading Technology Solutions Provider",
+          content: "Mekar Technology - Penyedia Solusi Teknologi Terdepan",
         },
         {
           property: "og:description",
           content:
-            "Professional technology solutions for modern businesses. Security systems, office automation, and custom software development.",
+            "Solusi teknologi profesional untuk bisnis modern. Sistem keamanan, otomasi kantor, dan pengembangan perangkat lunak khusus.",
         },
         { property: "og:type", content: "website" },
       ],
