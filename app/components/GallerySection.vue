@@ -3,11 +3,11 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12">
         <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl mb-4">
-          Gallery
+          Galeri Proyek Kami
         </h2>
         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-          Take a look at our work in action - from installations to completed
-          projects.
+          Lihat karya kami dalam aksi - dari instalasi hingga proyek yang
+          selesai.
         </p>
       </div>
 
@@ -15,7 +15,7 @@
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
         <!-- Image 1 - CCTV Installation -->
         <div
-          class="group relative overflow-hidden rounded-xl aspect-square bg-gradient-to-br from-blue-500 to-purple-600"
+          class="group relative overflow-hidden rounded-xl aspect-square bg-linear-to-br from-blue-500 to-purple-600"
         >
           <div class="absolute inset-0 flex items-center justify-center">
             <UIcon
@@ -37,7 +37,7 @@
 
         <!-- Image 2 - Access Control -->
         <div
-          class="group relative overflow-hidden rounded-xl aspect-square bg-gradient-to-br from-green-500 to-teal-600"
+          class="group relative overflow-hidden rounded-xl aspect-square bg-linear-to-br from-green-500 to-teal-600"
         >
           <div class="absolute inset-0 flex items-center justify-center">
             <UIcon
@@ -59,7 +59,7 @@
 
         <!-- Image 3 - Network Infrastructure -->
         <div
-          class="group relative overflow-hidden rounded-xl aspect-square bg-gradient-to-br from-orange-500 to-red-600"
+          class="group relative overflow-hidden rounded-xl aspect-square bg-linear-to-br from-orange-500 to-red-600"
         >
           <div class="absolute inset-0 flex items-center justify-center">
             <UIcon
@@ -81,7 +81,7 @@
 
         <!-- Image 4 - Office Setup -->
         <div
-          class="group relative overflow-hidden rounded-xl aspect-square bg-gradient-to-br from-purple-500 to-pink-600"
+          class="group relative overflow-hidden rounded-xl aspect-square bg-linear-to-br from-purple-500 to-pink-600"
         >
           <div class="absolute inset-0 flex items-center justify-center">
             <UIcon
@@ -103,7 +103,7 @@
 
         <!-- Image 5 - Smart Building -->
         <div
-          class="group relative overflow-hidden rounded-xl aspect-square bg-gradient-to-br from-cyan-500 to-blue-600"
+          class="group relative overflow-hidden rounded-xl aspect-square bg-linear-to-br from-cyan-500 to-blue-600"
         >
           <div class="absolute inset-0 flex items-center justify-center">
             <UIcon
@@ -125,7 +125,7 @@
 
         <!-- Image 6 - Team Work -->
         <div
-          class="group relative overflow-hidden rounded-xl aspect-square bg-gradient-to-br from-indigo-500 to-purple-600"
+          class="group relative overflow-hidden rounded-xl aspect-square bg-linear-to-br from-indigo-500 to-purple-600"
         >
           <div class="absolute inset-0 flex items-center justify-center">
             <UIcon

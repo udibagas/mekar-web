@@ -15,7 +15,7 @@
     <ProductsSection />
 
     <!-- Services Section -->
-    <ServicesSection />
+    <!-- <ServicesSection /> -->
 
     <!-- Clients Section -->
     <ClientsSection />

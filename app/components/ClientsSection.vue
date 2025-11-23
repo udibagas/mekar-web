@@ -11,166 +11,59 @@
         </p>
       </div>
 
-      <!-- Client Logos Grid -->
-      <div
-        class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center mb-16"
-      >
-        <!-- Bank Indonesia -->
-        <div
-          class="group flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:bg-blue-50 transition-colors"
-        >
-          <div class="text-center">
-            <UIcon
-              name="i-heroicons-building-library"
-              class="text-4xl text-blue-600 mx-auto mb-2"
-            />
-            <p class="text-sm font-medium text-gray-700">Bank Indonesia</p>
-          </div>
-        </div>
-
-        <!-- PT Pertamina -->
-        <div
-          class="group flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:bg-green-50 transition-colors"
-        >
-          <div class="text-center">
-            <UIcon
-              name="i-heroicons-fire"
-              class="text-4xl text-green-600 mx-auto mb-2"
-            />
-            <p class="text-sm font-medium text-gray-700">PT Pertamina</p>
-          </div>
-        </div>
-
-        <!-- Telkom Indonesia -->
-        <div
-          class="group flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:bg-red-50 transition-colors"
-        >
-          <div class="text-center">
-            <UIcon
-              name="i-heroicons-signal"
-              class="text-4xl text-red-600 mx-auto mb-2"
-            />
-            <p class="text-sm font-medium text-gray-700">Telkom Indonesia</p>
-          </div>
-        </div>
-
-        <!-- PT PLN -->
-        <div
-          class="group flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:bg-yellow-50 transition-colors"
-        >
-          <div class="text-center">
-            <UIcon
-              name="i-heroicons-bolt"
-              class="text-4xl text-yellow-600 mx-auto mb-2"
-            />
-            <p class="text-sm font-medium text-gray-700">PT PLN</p>
-          </div>
-        </div>
-
-        <!-- BCA -->
-        <div
-          class="group flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:bg-purple-50 transition-colors"
-        >
-          <div class="text-center">
-            <UIcon
-              name="i-heroicons-credit-card"
-              class="text-4xl text-purple-600 mx-auto mb-2"
-            />
-            <p class="text-sm font-medium text-gray-700">Bank BCA</p>
-          </div>
-        </div>
-
-        <!-- Mandiri -->
-        <div
-          class="group flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:bg-orange-50 transition-colors"
-        >
-          <div class="text-center">
-            <UIcon
-              name="i-heroicons-banknotes"
-              class="text-4xl text-orange-600 mx-auto mb-2"
-            />
-            <p class="text-sm font-medium text-gray-700">Bank Mandiri</p>
-          </div>
-        </div>
-
-        <!-- Garuda Indonesia -->
-        <div
-          class="group flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:bg-blue-50 transition-colors"
-        >
-          <div class="text-center">
-            <UIcon
-              name="i-heroicons-paper-airplane"
-              class="text-4xl text-blue-600 mx-auto mb-2"
-            />
-            <p class="text-sm font-medium text-gray-700">Garuda Indonesia</p>
-          </div>
-        </div>
-
-        <!-- Unilever -->
-        <div
-          class="group flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:bg-teal-50 transition-colors"
-        >
-          <div class="text-center">
-            <UIcon
-              name="i-heroicons-beaker"
-              class="text-4xl text-teal-600 mx-auto mb-2"
-            />
-            <p class="text-sm font-medium text-gray-700">Unilever Indonesia</p>
-          </div>
-        </div>
-
-        <!-- Astra International -->
-        <div
-          class="group flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:bg-indigo-50 transition-colors"
-        >
-          <div class="text-center">
-            <UIcon
-              name="i-heroicons-truck"
-              class="text-4xl text-indigo-600 mx-auto mb-2"
-            />
-            <p class="text-sm font-medium text-gray-700">Astra International</p>
-          </div>
-        </div>
-
-        <!-- Shopee -->
-        <div
-          class="group flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:bg-pink-50 transition-colors"
-        >
-          <div class="text-center">
-            <UIcon
-              name="i-heroicons-shopping-bag"
-              class="text-4xl text-pink-600 mx-auto mb-2"
-            />
-            <p class="text-sm font-medium text-gray-700">Shopee Indonesia</p>
-          </div>
-        </div>
-
-        <!-- Gojek -->
-        <div
-          class="group flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:bg-green-50 transition-colors"
-        >
-          <div class="text-center">
-            <UIcon
-              name="i-heroicons-device-phone-mobile"
-              class="text-4xl text-green-600 mx-auto mb-2"
-            />
-            <p class="text-sm font-medium text-gray-700">Gojek</p>
-          </div>
-        </div>
-
-        <!-- BUMN -->
-        <div
-          class="group flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors"
-        >
-          <div class="text-center">
-            <UIcon
-              name="i-heroicons-building-office-2"
-              class="text-4xl text-gray-600 mx-auto mb-2"
-            />
-            <p class="text-sm font-medium text-gray-700">Berbagai BUMN</p>
-          </div>
-        </div>
-      </div>
+      <!-- Client Logos Marquee -->
+      <UMarquee :spacing="80" class="mb-16">
+        <NuxtImg
+          src="/images/clients/bni.png"
+          alt="Bank BNI"
+          class="h-16 w-auto object-contain"
+        />
+        <NuxtImg
+          src="/images/clients/mandiri.png"
+          alt="Bank Mandiri"
+          class="h-16 w-auto object-contain"
+        />
+        <NuxtImg
+          src="/images/clients/bri.png"
+          alt="Bank BRI"
+          class="h-16 w-auto object-contain"
+        />
+        <NuxtImg
+          src="/images/clients/pelindo.png"
+          alt="Pelindo"
+          class="h-16 w-auto object-contain"
+        />
+        <NuxtImg
+          src="/images/clients/disporapar.jpg"
+          alt="Disporapar Jawa Tengah"
+          class="h-16 w-auto object-contain"
+        />
+        <NuxtImg
+          src="/images/clients/pln.png"
+          alt="PLN"
+          class="h-16 w-auto object-contain"
+        />
+        <NuxtImg
+          src="/images/clients/kai.jpg"
+          alt="KAI"
+          class="h-16 w-auto object-contain"
+        />
+        <NuxtImg
+          src="/images/clients/jne.png"
+          alt="JNE"
+          class="h-16 w-auto object-contain"
+        />
+        <NuxtImg
+          src="/images/clients/jamkrida.png"
+          alt="Jamkrida Jateng"
+          class="h-16 w-auto object-contain"
+        />
+        <NuxtImg
+          src="/images/clients/bpjs.jpg"
+          alt="BPJS Kesehatan"
+          class="h-16 w-auto object-contain"
+        />
+      </UMarquee>
 
       <!-- Client Categories -->
       <div class="grid md:grid-cols-3 gap-8 mb-12">
@@ -187,10 +80,9 @@
             keamanan dan teknologi tingkat enterprise.
           </p>
           <ul class="text-sm text-gray-600 space-y-1">
-            <li>• Bank Indonesia</li>
-            <li>• Bank BCA</li>
-            <li>• Bank Mandiri</li>
             <li>• Bank BNI</li>
+            <li>• Bank Mandiri</li>
+            <li>• Bank BRI</li>
           </ul>
         </div>
 
@@ -207,10 +99,12 @@
             dan modernisasi infrastruktur.
           </p>
           <ul class="text-sm text-gray-600 space-y-1">
-            <li>• PT Pertamina</li>
             <li>• PT PLN</li>
-            <li>• Telkom Indonesia</li>
-            <li>• Garuda Indonesia</li>
+            <li>• PT KAI</li>
+            <li>• BPJS Kesehatan</li>
+            <li>• Pelindo</li>
+            <li>• Jamkrida</li>
+            <li>• Disporapar</li>
           </ul>
         </div>
 
@@ -227,10 +121,7 @@
             dengan teknologi terdepan.
           </p>
           <ul class="text-sm text-gray-600 space-y-1">
-            <li>• Unilever Indonesia</li>
-            <li>• Astra International</li>
-            <li>• Shopee Indonesia</li>
-            <li>• Gojek</li>
+            <li>• JNE</li>
           </ul>
         </div>
       </div>
@@ -267,7 +158,7 @@
       <!-- Trust Indicators -->
       <div class="mt-12 grid md:grid-cols-4 gap-6 text-center">
         <div>
-          <div class="text-3xl font-bold text-blue-600 mb-2">150+</div>
+          <div class="text-3xl font-bold text-blue-600 mb-2">10+</div>
           <p class="text-gray-600 text-sm">Klien Aktif</p>
         </div>
         <div>
@@ -279,7 +170,7 @@
           <p class="text-gray-600 text-sm">Dukungan Teknis</p>
         </div>
         <div>
-          <div class="text-3xl font-bold text-orange-600 mb-2">8+</div>
+          <div class="text-3xl font-bold text-orange-600 mb-2">10+</div>
           <p class="text-gray-600 text-sm">Tahun Kepercayaan</p>
         </div>
       </div>

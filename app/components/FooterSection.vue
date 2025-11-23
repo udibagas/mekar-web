@@ -9,7 +9,7 @@
               <UIcon name="i-heroicons-cpu-chip" class="text-xl text-white" />
             </div>
             <div>
-              <h3 class="text-xl font-bold">Mekar Technology</h3>
+              <h3 class="text-xl font-bold">CV. Mekar Kreasindo</h3>
               <p class="text-xs text-gray-400">Technology Solutions Provider</p>
             </div>
           </div>
@@ -17,26 +17,6 @@
             Leading technology solutions provider specializing in security
             systems, office automation, and custom software development.
           </p>
-          <div class="flex space-x-4">
-            <UButton
-              variant="ghost"
-              size="sm"
-              icon="i-heroicons-envelope"
-              class="text-gray-400 hover:text-blue-400"
-            />
-            <UButton
-              variant="ghost"
-              size="sm"
-              icon="i-heroicons-phone"
-              class="text-gray-400 hover:text-blue-400"
-            />
-            <UButton
-              variant="ghost"
-              size="sm"
-              icon="i-heroicons-map-pin"
-              class="text-gray-400 hover:text-blue-400"
-            />
-          </div>
         </div>
 
         <!-- Services -->
@@ -86,42 +66,32 @@
           <h4 class="text-lg font-semibold mb-4">Perusahaan</h4>
           <ul class="space-y-2 text-gray-400">
             <li>
-              <a href="#profile" class="hover:text-blue-400 transition-colors"
-                >Tentang Kami</a
-              >
+              <a href="#profile" class="hover:text-blue-400 transition-colors">
+                Tentang Kami
+              </a>
             </li>
             <li>
-              <a href="#clients" class="hover:text-blue-400 transition-colors"
-                >Klien</a
-              >
+              <a href="#clients" class="hover:text-blue-400 transition-colors">
+                Klien
+              </a>
             </li>
             <li>
-              <a href="#portfolio" class="hover:text-blue-400 transition-colors"
-                >Portofolio</a
+              <a
+                href="#portfolio"
+                class="hover:text-blue-400 transition-colors"
               >
+                Portofolio
+              </a>
             </li>
             <li>
-              <a href="#gallery" class="hover:text-blue-400 transition-colors"
-                >Galeri</a
-              >
+              <a href="#gallery" class="hover:text-blue-400 transition-colors">
+                Galeri
+              </a>
             </li>
             <li>
-              <a href="#contact" class="hover:text-blue-400 transition-colors"
-                >Kontak</a
-              >
-            </li>
-            <li>
-              <a href="#" class="hover:text-blue-400 transition-colors"
-                >Careers</a
-              >
-            </li>
-            <li>
-              <a href="#" class="hover:text-blue-400 transition-colors">News</a>
-            </li>
-            <li>
-              <a href="#" class="hover:text-blue-400 transition-colors"
-                >Support</a
-              >
+              <a href="#contact" class="hover:text-blue-400 transition-colors">
+                Kontak
+              </a>
             </li>
           </ul>
         </div>
@@ -136,22 +106,25 @@
                 class="mr-2 mt-1 text-blue-400"
               />
               <div>
-                <p class="text-sm">Jl. Teknologi Raya No. 123</p>
-                <p class="text-sm">Cyber District, Jakarta 12950</p>
-                <p class="text-sm">Indonesia</p>
+                <p class="text-sm">Jln. Gondang Timur III No.27 RT2 RW II</p>
+                <p class="text-sm">Kelurahan Bulusan Kecamatan Tembalang</p>
+                <p class="text-sm">Kota Semarang Kode Pos 50277</p>
               </div>
             </div>
             <div class="flex items-center">
               <UIcon name="i-heroicons-phone" class="mr-2 text-blue-400" />
-              <span class="text-sm">+62 21 5555 0123</span>
+              <div>
+                <div class="text-sm">+62 85-692-940-433</div>
+                <div class="text-sm">+62 081-390-036-642</div>
+              </div>
             </div>
             <div class="flex items-center">
               <UIcon name="i-heroicons-envelope" class="mr-2 text-blue-400" />
-              <span class="text-sm">info@mekartechnology.com</span>
+              <span class="text-sm">mekarkreasindosmg@gmail.com </span>
             </div>
             <div class="flex items-center">
               <UIcon name="i-heroicons-clock" class="mr-2 text-blue-400" />
-              <span class="text-sm">Mon-Fri: 8:00 AM - 6:00 PM</span>
+              <span class="text-sm">Senin-Jumat: 8:00 - 17:00</span>
             </div>
             <div class="mt-4">
               <p class="text-sm font-medium text-red-400">
@@ -166,22 +139,20 @@
       <div class="border-t border-gray-800 mt-8 pt-8">
         <div class="flex flex-col lg:flex-row justify-between items-center">
           <div class="text-gray-400 text-sm mb-4 lg:mb-0">
-            © 2025 Mekar Technology Solutions. All rights reserved.
+            © {{ new Date().getFullYear() }} Mekar Kreasindo. All rights
+            reserved.
           </div>
           <div class="flex space-x-6 text-sm text-gray-400">
-            <a href="#" class="hover:text-blue-400 transition-colors"
-              >Privacy Policy</a
-            >
-            <a href="#" class="hover:text-blue-400 transition-colors"
-              >Terms of Service</a
-            >
-            <a href="#" class="hover:text-blue-400 transition-colors"
-              >Site Map</a
-            >
+            <a href="#" class="hover:text-blue-400 transition-colors">
+              Privacy Policy
+            </a>
+            <a href="#" class="hover:text-blue-400 transition-colors">
+              Terms of Service
+            </a>
+            <a href="#" class="hover:text-blue-400 transition-colors">
+              Site Map
+            </a>
           </div>
-        </div>
-        <div class="text-center mt-4 text-xs text-gray-500">
-          Built with Nuxt.js, @nuxt/content, and @nuxt/ui
         </div>
       </div>
     </div>

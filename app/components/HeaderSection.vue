@@ -77,17 +77,6 @@
           </UButton>
         </nav>
 
-        <!-- Contact Button -->
-        <div class="hidden lg:flex">
-          <UButton
-            color="primary"
-            @click="scrollTo('contact')"
-            icon="i-heroicons-phone"
-          >
-            Dapatkan Penawaran
-          </UButton>
-        </div>
-
         <!-- Mobile Menu Button -->
         <div class="lg:hidden">
           <UButton
@@ -170,15 +159,6 @@
             class="text-left justify-start"
           >
             Kontak
-          </UButton>
-          <UButton
-            color="primary"
-            @click="mobileScrollTo('contact')"
-            block
-            icon="i-heroicons-phone"
-            class="mt-4"
-          >
-            Dapatkan Penawaran
           </UButton>
         </nav>
       </div>
