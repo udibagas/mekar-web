@@ -33,6 +33,7 @@ export default defineNuxtConfig({
         { property: "og:type", content: "website" },
       ],
       link: [
+        { rel: "icon", type: "image/png", href: "/images/logo.jpeg" },
         { rel: "preconnect", href: "https://fonts.googleapis.com" },
         {
           rel: "preconnect",
