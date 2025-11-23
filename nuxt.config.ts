@@ -8,22 +8,22 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: "Mekar Technology - Penyedia Solusi Teknologi Terdepan",
+      title: "Mekar Kreasindo - Penyedia Solusi Teknologi Terdepan",
       meta: [
         {
           name: "description",
           content:
-            "Mekar Technology menyediakan sistem keamanan terdepan, otomasi kantor, dan solusi perangkat lunak khusus. Spesialis CCTV, kontrol akses, sistem parkir, dan lainnya.",
+            "Mekar Kreasindo menyediakan sistem keamanan terdepan, otomasi kantor, dan solusi perangkat lunak khusus. Spesialis CCTV, kontrol akses, sistem parkir, dan lainnya.",
         },
         {
           name: "keywords",
           content:
             "CCTV, kontrol akses, sistem parkir, peralatan kantor, integrasi software, aplikasi khusus, jaringan, sistem keamanan, Jakarta",
         },
-        { name: "author", content: "Mekar Technology Solutions" },
+        { name: "author", content: "Mekar Kreasindo Solutions" },
         {
           property: "og:title",
-          content: "Mekar Technology - Penyedia Solusi Teknologi Terdepan",
+          content: "Mekar Kreasindo - Penyedia Solusi Teknologi Terdepan",
         },
         {
           property: "og:description",
