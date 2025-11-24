@@ -14,53 +14,10 @@
       <!-- Client Logos Marquee -->
       <UMarquee :spacing="80" class="mb-16">
         <NuxtImg
-          src="/images/clients/bni.png"
-          alt="Bank BNI"
-          class="h-16 w-auto object-contain"
-        />
-        <NuxtImg
-          src="/images/clients/mandiri.png"
-          alt="Bank Mandiri"
-          class="h-16 w-auto object-contain"
-        />
-        <NuxtImg
-          src="/images/clients/bri.png"
-          alt="Bank BRI"
-          class="h-16 w-auto object-contain"
-        />
-        <NuxtImg
-          src="/images/clients/pelindo.png"
-          alt="Pelindo"
-          class="h-16 w-auto object-contain"
-        />
-        <NuxtImg
-          src="/images/clients/disporapar.jpg"
-          alt="Disporapar Jawa Tengah"
-          class="h-16 w-auto object-contain"
-        />
-        <NuxtImg
-          src="/images/clients/pln.png"
-          alt="PLN"
-          class="h-16 w-auto object-contain"
-        />
-        <NuxtImg
-          src="/images/clients/kai.jpg"
-          alt="KAI"
-          class="h-16 w-auto object-contain"
-        />
-        <NuxtImg
-          src="/images/clients/jne.png"
-          alt="JNE"
-          class="h-16 w-auto object-contain"
-        />
-        <NuxtImg
-          src="/images/clients/jamkrida.png"
-          alt="Jamkrida Jateng"
-          class="h-16 w-auto object-contain"
-        />
-        <NuxtImg
-          src="/images/clients/bpjs.jpg"
-          alt="BPJS Kesehatan"
+          v-for="client in clients"
+          :key="client.name"
+          :src="client.logo"
+          :alt="client.name"
           class="h-16 w-auto object-contain"
         />
       </UMarquee>
@@ -177,3 +134,18 @@
     </div>
   </section>
 </template>
+
+<script setup lang="ts">
+const clients = [
+  { name: "Bank BNI", logo: "/images/clients/bni.png" },
+  { name: "Bank Mandiri", logo: "/images/clients/mandiri.png" },
+  { name: "Bank BRI", logo: "/images/clients/bri.png" },
+  { name: "Pelindo", logo: "/images/clients/pelindo.png" },
+  { name: "Disporapar Jawa Tengah", logo: "/images/clients/disporapar.jpg" },
+  { name: "PLN", logo: "/images/clients/pln.png" },
+  { name: "KAI", logo: "/images/clients/kai.jpg" },
+  { name: "JNE", logo: "/images/clients/jne.png" },
+  { name: "Jamkrida Jateng", logo: "/images/clients/jamkrida.png" },
+  { name: "BPJS Kesehatan", logo: "/images/clients/bpjs.jpg" },
+];
+</script>

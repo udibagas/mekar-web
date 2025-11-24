@@ -3,144 +3,34 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12">
         <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl mb-4">
-          Galeri Proyek Kami
+          Galeri Proyek
         </h2>
         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-          Lihat karya kami dalam aksi - dari instalasi hingga proyek yang
-          selesai.
+          Dokumentasi proyek instalasi sistem keamanan, jaringan, dan otomasi
+          yang telah kami kerjakan.
         </p>
       </div>
 
       <!-- Gallery Grid -->
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-        <!-- Image 1 - CCTV Installation -->
         <div
-          class="group relative overflow-hidden rounded-xl aspect-square bg-linear-to-br from-blue-500 to-purple-600"
+          v-for="item in galleryItems"
+          :key="item.title"
+          class="group relative overflow-hidden rounded-xl aspect-square"
         >
-          <div class="absolute inset-0 flex items-center justify-center">
-            <UIcon
-              name="i-heroicons-video-camera"
-              class="text-6xl text-white opacity-70"
-            />
-          </div>
+          <NuxtImg
+            :src="item.image"
+            :alt="item.title"
+            class="w-full h-full object-cover"
+          />
           <div
-            class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 flex items-center justify-center"
+            class="absolute inset-0 bg-black opacity-0 group-hover:opacity-60 transition-all duration-300 flex items-center justify-center"
           >
             <div
-              class="text-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+              class="text-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4"
             >
-              <h3 class="text-lg font-semibold mb-2">CCTV Installation</h3>
-              <p class="text-sm">Professional camera setup</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Image 2 - Access Control -->
-        <div
-          class="group relative overflow-hidden rounded-xl aspect-square bg-linear-to-br from-green-500 to-teal-600"
-        >
-          <div class="absolute inset-0 flex items-center justify-center">
-            <UIcon
-              name="i-heroicons-finger-print"
-              class="text-6xl text-white opacity-70"
-            />
-          </div>
-          <div
-            class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 flex items-center justify-center"
-          >
-            <div
-              class="text-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-            >
-              <h3 class="text-lg font-semibold mb-2">Access Control</h3>
-              <p class="text-sm">Biometric authentication</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Image 3 - Network Infrastructure -->
-        <div
-          class="group relative overflow-hidden rounded-xl aspect-square bg-linear-to-br from-orange-500 to-red-600"
-        >
-          <div class="absolute inset-0 flex items-center justify-center">
-            <UIcon
-              name="i-heroicons-server"
-              class="text-6xl text-white opacity-70"
-            />
-          </div>
-          <div
-            class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 flex items-center justify-center"
-          >
-            <div
-              class="text-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-            >
-              <h3 class="text-lg font-semibold mb-2">Network Infrastructure</h3>
-              <p class="text-sm">Enterprise networking</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Image 4 - Office Setup -->
-        <div
-          class="group relative overflow-hidden rounded-xl aspect-square bg-linear-to-br from-purple-500 to-pink-600"
-        >
-          <div class="absolute inset-0 flex items-center justify-center">
-            <UIcon
-              name="i-heroicons-building-office"
-              class="text-6xl text-white opacity-70"
-            />
-          </div>
-          <div
-            class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 flex items-center justify-center"
-          >
-            <div
-              class="text-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-            >
-              <h3 class="text-lg font-semibold mb-2">Office Setup</h3>
-              <p class="text-sm">Complete office solutions</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Image 5 - Smart Building -->
-        <div
-          class="group relative overflow-hidden rounded-xl aspect-square bg-linear-to-br from-cyan-500 to-blue-600"
-        >
-          <div class="absolute inset-0 flex items-center justify-center">
-            <UIcon
-              name="i-heroicons-home-modern"
-              class="text-6xl text-white opacity-70"
-            />
-          </div>
-          <div
-            class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 flex items-center justify-center"
-          >
-            <div
-              class="text-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-            >
-              <h3 class="text-lg font-semibold mb-2">Smart Building</h3>
-              <p class="text-sm">Integrated automation</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Image 6 - Team Work -->
-        <div
-          class="group relative overflow-hidden rounded-xl aspect-square bg-linear-to-br from-indigo-500 to-purple-600"
-        >
-          <div class="absolute inset-0 flex items-center justify-center">
-            <UIcon
-              name="i-heroicons-users"
-              class="text-6xl text-white opacity-70"
-            />
-          </div>
-          <div
-            class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 flex items-center justify-center"
-          >
-            <div
-              class="text-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-            >
-              <h3 class="text-lg font-semibold mb-2">Professional Team</h3>
-              <p class="text-sm">Expert technicians</p>
+              <h3 class="text-lg font-semibold mb-2">{{ item.title }}</h3>
+              <p class="text-sm">{{ item.description }}</p>
             </div>
           </div>
         </div>
@@ -154,11 +44,10 @@
             class="text-4xl text-blue-600 mx-auto mb-4"
           />
           <h3 class="text-lg font-semibold text-gray-900 mb-2">
-            Security Systems
+            Sistem Keamanan
           </h3>
           <p class="text-gray-600">
-            Advanced CCTV and access control installations across various
-            industries.
+            Instalasi CCTV dan kontrol akses canggih di berbagai industri.
           </p>
         </div>
 
@@ -168,10 +57,10 @@
             class="text-4xl text-green-600 mx-auto mb-4"
           />
           <h3 class="text-lg font-semibold text-gray-900 mb-2">
-            Office Solutions
+            Solusi Kantor
           </h3>
           <p class="text-gray-600">
-            Complete office automation and peripheral equipment implementations.
+            Implementasi otomasi kantor dan perangkat peripheral lengkap.
           </p>
         </div>
 
@@ -181,14 +70,84 @@
             class="text-4xl text-purple-600 mx-auto mb-4"
           />
           <h3 class="text-lg font-semibold text-gray-900 mb-2">
-            Custom Software
+            Software Custom
           </h3>
           <p class="text-gray-600">
-            Tailored software solutions and system integrations for modern
-            businesses.
+            Solusi perangkat lunak khusus dan integrasi sistem untuk bisnis
+            modern.
           </p>
         </div>
       </div>
     </div>
   </section>
 </template>
+
+<script setup lang="ts">
+const galleryItems = [
+  {
+    image: "/images/galleries/pemasangan-autogate.png",
+    title: "Pemasangan Autogate",
+    description: "Sistem pintu otomatis modern",
+  },
+  {
+    image: "/images/galleries/pemasangan-autogate-1.png",
+    title: "Instalasi Autogate",
+    description: "Solusi akses kendaraan otomatis",
+  },
+  {
+    image: "/images/galleries/pemasangan-autogate-2.png",
+    title: "Proyek Autogate",
+    description: "Implementasi sistem barrier otomatis",
+  },
+  {
+    image: "/images/galleries/pemasangan-autogate-3.png",
+    title: "Setup Autogate",
+    description: "Instalasi gate otomatis premium",
+  },
+  {
+    image: "/images/galleries/pemasangan-jaringan-fo.png",
+    title: "Pemasangan Jaringan Fiber Optik",
+    description: "Infrastruktur jaringan berkecepatan tinggi",
+  },
+  {
+    image: "/images/galleries/pemasangan-jaringan-fo-2.png",
+    title: "Instalasi Fiber Optik",
+    description: "Koneksi jaringan enterprise",
+  },
+  {
+    image: "/images/galleries/pemasangan-jaringan-fo-3.png",
+    title: "Konfigurasi FO",
+    description: "Pemasangan kabel fiber optik",
+  },
+  {
+    image: "/images/galleries/pemasangan-jaringan-fo-4.png",
+    title: "Proyek Jaringan FO",
+    description: "Implementasi infrastruktur FO",
+  },
+  {
+    image: "/images/galleries/pemasangan-perangkat-ups.png",
+    title: "Pemasangan UPS",
+    description: "Sistem power backup terpercaya",
+  },
+  {
+    image: "/images/galleries/pemasangan-perangkat-ups-1.png",
+    title: "Instalasi UPS",
+    description: "Perangkat uninterruptible power supply",
+  },
+  {
+    image: "/images/galleries/pemasangan-turnstile.png",
+    title: "Pemasangan Turnstile",
+    description: "Sistem kontrol akses pedestrian",
+  },
+  {
+    image: "/images/galleries/pemasangan-turnstile-2.png",
+    title: "Instalasi Turnstile Gate",
+    description: "Kontrol akses gedung modern",
+  },
+  {
+    image: "/images/galleries/pemasangan-vide-intercom.png",
+    title: "Pemasangan Video Intercom",
+    description: "Sistem komunikasi visual",
+  },
+];
+</script>
